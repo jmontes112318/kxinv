@@ -230,7 +230,7 @@ if (!isset($_SESSION['usuario'])) {
                       </div>
 
                       <div class="row">
-                        <div class="col-lg-4 col-xs-12 ">
+                        <div class=" col-xs-12 col-md-4 col-lg-4  ">
                           <div class="form-group clearfix">
                             <div class="icheck-primary d-inline">
                               <input type="radio" id="rbPicking" value="picking" name="area">
@@ -241,7 +241,7 @@ if (!isset($_SESSION['usuario'])) {
                           </div>
                         </div>
 
-                        <div class="col-lg-4 col-xs-12 ">
+                        <div class=" col-xs-12 col-md-4 col-lg-4  ">
                           <div class="form-group clearfix">
                             <div class="icheck-danger d-inline">
                               <input type="radio" id="rbOriginales" value="originales" name="area">
