@@ -872,7 +872,7 @@ $(document).ready(function () {
     document.getElementById("barra").disabled = false;
   }
 
-  function inicioArea() {
+
     
     if (!$("#registroInventario input[name='area']:radio").is(":checked")) {
       Swal.fire({
@@ -887,8 +887,8 @@ $(document).ready(function () {
   
   
     }
-  }
-inicioArea();
+  
+
 
   let area = "";
   $("input[name=area]").click(function () {

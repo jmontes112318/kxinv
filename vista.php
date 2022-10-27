@@ -10,10 +10,9 @@ if (!isset($_SESSION['usuario'])) {
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
+<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kardex</title>
-  <script src="js/jquery-3.6.0.min.js"></script>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
@@ -30,12 +29,10 @@ if (!isset($_SESSION['usuario'])) {
   <link rel="stylesheet" href="dist/css/sweetalert2.min.css">
   <!-- DataTables -->
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/sp-2.0.2/sl-1.4.0/datatables.min.css"/>
-
-  <!-- <link rel="stylesheet" href="dist/datatables/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="dist/datatables/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="dist/datatables/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="dist/datatables/datatables-buttons/css/buttons.bootstrap4.min.css">
-  <link rel="stylesheet" href="dist/datatables/SearchPanes-2.0.2/css/searchPanes.dataTables.min.css">
+  <!-- <link rel="stylesheet" href="dist/datatables/SearchPanes-2.0.2/css/searchPanes.dataTables.min.css">
   <link rel="stylesheet" href="dist/datatables/Select-1.4.0/css/select.dataTables.min.css"> -->
 
 
@@ -48,6 +45,7 @@ if (!isset($_SESSION['usuario'])) {
 
 
 
+  <script src="js/jquery-3.6.0.min.js"></script>
   
 </head>
 
@@ -1555,37 +1553,46 @@ if (!isset($_SESSION['usuario'])) {
         <!-- ./wrapper -->
 
         <!-- REQUIRED SCRIPTS -->
-       
-        
         <script src="js/app.js"></script>
-      
-        <!-- <script src="dist/js/quagga.min.js"></script> -->
 
-      
         <!-- Bootstrap 4 -->
         <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
         <!-- AdminLTE App -->
         <script src="dist/js/adminlte.min.js"></script>
-      
+        <!-- AdminLTE for demo purposes -->
+        <!-- <script src="dist/js/demo.js"></script> -->
+
         <!-- SweetAlert2 -->
         <script src="dist/css/sweetalert2.all.min.js"></script>
-
-      
         <!-- DataTables  & Plugins -->
-        
- 
-      <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/sp-2.0.2/sl-1.4.0/datatables.min.js"></script>
+        <!-- jQuery -->
 
-                            
-      
-      <script src="js/usuario.js"></script>
-
-       
+        <script src="dist/Data_Tables/datatables.js"></script>
+        <script src="datatables/jquery.dataTables.min.js"></script>
 
 
+        <script src="dist/datatables/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <!-- <script src="dist/datatables/SearchPanes-2.0.2/js/dataTables.searchPanes.min.js"></script>
+        <script src="dist/datatables/Select-1.4.0/js/dataTables.select.min.js"></script> -->
+
+
+        <!-- Para usar los botones -->
+        <script src="dist/datatables/datatables-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="dist/datatables/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+        <script src="dist/datatables/datatables-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="dist/datatables/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+        <script src="dist/datatables/jszip/jszip.min.js"></script>
+        <script src="dist/datatables/pdfmake/pdfmake.min.js"></script>
+        <script src="dist/datatables/pdfmake/vfs_fonts.js"></script>
+        <script src="dist/datatables/pdfmake/vfs_fonts.js"></script>
+
+        <!-- <script src="dist/datatables/datatables-buttons/js/buttons.html5.min.js"></script>
+        <script src="dist/datatables/datatables-buttons/js/buttons.print.min.js"></script>
+        <script src="dist/datatables/datatables-buttons/js/buttons.colVis.min.js"></script> -->
 
 
 
+        <script src="js/usuario.js"></script>
 
 
 
