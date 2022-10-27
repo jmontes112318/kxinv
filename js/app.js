@@ -872,19 +872,27 @@ $(document).ready(function () {
     document.getElementById("barra").disabled = false;
   }
 
-  if (!$("#registroInventario input[name='area']:radio").is(":checked")) {
-    Swal.fire({
-      position: "top-end",
-      icon: "info",
-      title: "Debe Selecionar la zona de inventario picking u Original",
-      showConfirmButton: false,
-      timer: 4000,
-    });
-
-    desactivarInputFrmTomaInv();
+  function inicioArea() {
+    
+    if (!$("#registroInventario input[name='area']:radio").is(":checked")) {
+      Swal.fire({
+        position: "top-end",
+        icon: "info",
+        title: "Debe Selecionar la zona de inventario picking u Original",
+        showConfirmButton: false,
+        timer: 4000,
+      });
+  
+      desactivarInputFrmTomaInv();
+  
+  
+    }
   }
+inicioArea();
+
   let area = "";
   $("input[name=area]").click(function () {
+
     activarInputFrmTomaInv();
     area = $("input:radio[name=area]:checked").val();
     $("#ubicacion").val("");
