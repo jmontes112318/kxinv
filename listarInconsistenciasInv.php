@@ -5,7 +5,7 @@
 include 'database.php';
 // $usuario = $_POST['usuario'];
 
-$query = "SELECT id,codigo,lote,descripcion,stock,costo_und,ubicacion,ubicacion2,pasillo,estante,alterno,cant_ingresada, (cant_ingresada-stock) as inconsistencia
+$query = "SELECT id,codigo,lote,descripcion,stock,costo_und,ubicacion,ubicacion2,pasillo,estante,alterno,cant_ingresada, (cant_ingresada-stock) as inconsistencia,bodega
 FROM productos
  HAVING inconsistencia <>0 
  ORDER BY ubicacion asc

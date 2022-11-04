@@ -626,6 +626,7 @@ $(document).ready(function () {
           defaultContent:
             '<div class="btn-group"><button class="btn btn-primary botonEditar data-toggle="modal" data-target="#modificarCantidadInco">Editar</button></div>',
         },
+        { data: "bodega" },
         { data: "alterno" },
         { data: "codigo" },
         { data: "lote" },
@@ -637,6 +638,7 @@ $(document).ready(function () {
         { data: "ubicacion2" },
         { data: "pasillo" },
         { data: "estante" },
+        { data: "bodega" },
       ],
 
       createdRow: function (row, data, index) {

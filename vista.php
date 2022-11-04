@@ -824,6 +824,7 @@ if (!isset($_SESSION['usuario'])) {
                       <thead>
                         <tr>
                           <th>Editar</th>
+                          <th>bodega</th>
                           <th>Alterno</th>
                           <th>Codigo</th>
                           <th>Lote</th>
@@ -835,6 +836,7 @@ if (!isset($_SESSION['usuario'])) {
                           <th>ubicacion2</th>
                           <th>pasillo</th>
                           <th>estante</th>
+                          <th>bodega</th>
                         </tr>
                       </thead>
 
@@ -1537,11 +1539,7 @@ if (!isset($_SESSION['usuario'])) {
           </div>
           <!-- /.content-wrapper -->
 
-          <!-- Control Sidebar -->
-          <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-          </aside>
-          <!-- /.control-sidebar -->
+       
 
           <!-- Main Footer -->
           <footer class="main-footer">
